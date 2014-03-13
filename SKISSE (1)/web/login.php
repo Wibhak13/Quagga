@@ -114,12 +114,18 @@
 <head>
 <meta charset="utf-8">
 <title>login</title>
-<link href="css.css" rel="stylesheet" type="text/css">
+<link href="stilsettLOGIN.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 </head>
-    <div id="head"></div>
-        <div id="login"><h2>Innlogging</h2> 
+    <div id="head"><img id="westlogo" src="images/logowesterdals.png"></div>
+    
+    <div id="westerdalslogo">
+        <img src="images/westerdallogo.png"> </div>
+        <div class="stor">Westerdals</div></br>
+        <div class="medium">School of communication, technology and Art.</div>  
+        <div id="login"> 
             <form action="login.php" method="post"> 
-                Brukernavn:<br /> 
+                Student Nummer:<br /> 
                 <input type="text" name="username" value="<?php echo $submitted_username; ?>" /> 
                 <br /><br /> 
                 Passord:<br /> 
@@ -129,7 +135,7 @@
 <a href="register.php">Registrering</a>
     
     </div>
-    <div id="logo"><img src="images/logo.png"></div>
 <body>
 </body>
 </html>
+

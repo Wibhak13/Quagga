@@ -2,8 +2,10 @@
 /* CSS Document */
 
 body {
-    background: URL(images/bakgrunn.png) no-repeat fixed 100% 100%;
+    background: URL(images/bakgrunn2.png) no-repeat fixed 100% 100%;
     margin: 0;
+    font-family: helvetica;
+
 }
 
 #login {
@@ -11,10 +13,21 @@ body {
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
-    background: url(images/bak.png);
+    margin-top: 10px;
     text-align: center;
     padding-top: 10px;
+    color: white;
+}
+
+#boksEDIT {
+    width: 300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
 }
 
 #head {
@@ -34,8 +47,7 @@ body {
 
 #logo {
     position: fixed;
-    float: right;
-    right:10px;
+    left:40px;
     bottom: 0px;
 }
 /* MENYEN*/
@@ -54,6 +66,12 @@ ul h2{
 }
 
 ul h2 a {
+    color: #535353;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul h2 a:visited {
     color: #535353;
     list-style: none;
     text-decoration: none;
@@ -86,12 +104,14 @@ ul li  {
     margin-left: -10px;
 }
 
-
+a:link {
+    color: #ccc;
+}
 
 /* INNHOLD PÅ SIDEN */
 #maincontent {
-    height: auto;;
-    min-width: 1200px;
+    height: auto;
+    max-width: 60%;
     position: absolute;
     top: 80px;
     left: 420px;
@@ -99,32 +119,32 @@ ul li  {
 
 /* HEADER STUFF */
 #contHEAD{
-    width: 100%;
+    max-width: 100%;
     height: 315px;
     background-color: #fff;
     margin-bottom: 40px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #555;
 }
 
 #headCONTENT {
     position:absolute;
-    top: 0px;
+    top: -8px;
     right: 0px;
     height: 200px;
-    width: 320px;
-    padding: 15px;
+    width: 23%;
+    font-size: 11pt;
+    padding: 10px;
     text-align: center;
 }
 
 #contMAIN {
-    width: 1185px;
+    width: 97.2%;
     height: auto;;
     background-color: #fff;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #555;
     padding: 15px;
     text-align: center;
 }
-
 
 /*KNAPPEN*/
 #meldpa {
@@ -150,4 +170,48 @@ i {
     position: absolute;
     top: 150px;
     left: 500px;
+}
+
+#westerdalslogo {
+    width: 500px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stor {
+    font-size: 40pt;
+    width: 250px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medium {
+    font-size: 15pt;
+    width: 400px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+/* GENERELLE TING PÅ SIDEN */
+a:link {
+    color: #444;
+}
+
+a:visited {
+    color: #444;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40pt;
+    margin-bottom: -20px;
 }

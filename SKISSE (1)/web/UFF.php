@@ -26,9 +26,10 @@
 <meta charset="utf-8">
 <title>Westerdals UTVALG</title>
 <link href="css.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 </head>
     <div id="head">
-        <div id="loginper"><img id="westlogo" src="images/logowesterdals.png">Innlogget som: <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>
+        <div id="loginper"><img id="westlogo" href=index.php src="images/logowesterdals.png">Innlogget som: <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>
         <a href="edit_account.php">Rediger konto</a>
         <a href="logout.php">Utlogging</a></div>
     </div>
@@ -93,7 +94,6 @@
 <p>Mauris eu libero eu mauris facilisis lobortis. Etiam consectetur mi ac velit aliquet, ac interdum sapien varius. Aliquam sed libero venenatis metus convallis commodo nec vitae tortor. Suspendisse in vehicula tellus. Morbi vitae sapien purus. Praesent eu justo eu velit ultrices blandit nec sed velit. Etiam nunc purus, fringilla quis pulvinar non, tristique eget risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et vehicula lorem. Aenean ullamcorper at nisi a laoreet. Vivamus pharetra nunc urna, vitae pharetra elit molestie vel. Nam ac purus eu felis dapibus eleifend. Vestibulum semper euismod mi, pulvinar tristique diam accumsan non.</p>
         </div>
     </div>
-    <div id="logo"><img src="images/logo.png"></div>
 
 <body>
 </body>

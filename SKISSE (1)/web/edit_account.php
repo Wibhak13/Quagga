@@ -156,10 +156,11 @@
 <head>
 <meta charset="utf-8">
 <title>login</title>
-<link href="css.css" rel="stylesheet" type="text/css">
+<link href="stilsettLOGIN.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 </head>
     <div id="head"><img id="westlogo" src="images/logowesterdals.png"></div>
-        <div id="login"> 
+        <div id="boksEDIT"> 
             <h2>Rediger konto</h2> 
             <form action="edit_account.php" method="post"> 
                 Brukernavn:<br /> 
@@ -180,8 +181,7 @@
                         <input type="submit" value="Oppdater Konto" /> 
 </form>
     
-    </div>
-    <div id="logo"><img src="images/logo.png"></div>
+</div>
 <body>
 </body>
 </html>
